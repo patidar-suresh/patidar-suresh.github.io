@@ -48,6 +48,11 @@ p {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
+.sectionContent h3 {
+	font-size: 1em;
+	margin: 15px 0 5px 0;
+}
+
 #mainArea {
 	padding: 0 40px;
 }
@@ -104,6 +109,10 @@ section {
 	padding: 20px 0 0;
 }
 
+.socialmedia-logo {
+	height: 36px;
+}
+
 section:first-child {
 	border-top: 0;
 }
@@ -153,6 +162,24 @@ section:last-child {
 
 .keySkills ul li {
 	margin-bottom: 3px;
+}
+
+.duties, .projects {	
+	font-size: 0.9em;
+	line-height: 1.4em;
+	color: #444;
+	margin-left: 20px;
+}
+
+.awards {
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #444;
+	margin-left: 20px;
+}
+
+.projects li ul {
+	margin-left: 20px;
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
